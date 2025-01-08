@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moto Kurye - Hızlı ve Güvenilir Teslimat</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .slides:first-child {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="images/logo.png" alt="ENS Motokurye Logo" class="nav-logo">
+                <span>ENS Motokurye</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#services">Hizmetler</a></li>
+                <li><a href="#about">Hakkımızda</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-background">
+            <img src="images/4.jpg" alt="Hero Background">
+        </div>
+        <div class="hero-content">
+            <h1>Hızlı ve Güvenilir Moto Kurye Hizmeti</h1>
+            <p>7/24 İstanbul içi ve Şehirlerarası express teslimat</p>
+            <a href="#contact" class="cta-button">Hemen Sipariş Ver</a>
+        </div>
+    </header>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Hizmetlerimiz</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <img src="images/vip.png" alt="VIP Teslimat">
+                    <h3>VIP</h3>
+                    <p>Gönderi teslim alındıktan sonra <b>60 dakika içerisinde</b> teslimat.</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/express.png" alt="Express Teslimat">
+                    <h3>Express</h3>
+                    <p>Gönderi teslim alındıktan sonra <b>90 dakika içerisinde</b> teslim.</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/normal.png" alt="Normal Teslimat">
+                    <h3>Normal</h3>
+                    <p>Gönderi teslim alındıktan sonra <b>2-3 saat arasında</b> teslimat süresi.</p>
+                </div>
+                <div class="service-card">
+                    <img src="images/ekonomik.png" alt="Ekonomik Teslimat">
+                    <h3>Ekonomik</h3>
+                    <p>Gönderi teslim alındıktan sonra <b>3-4 saat arasında</b> teslimat süresi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Neden Biz?</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>Profesyonel Ekip</h3>
+                    <p>Yıllarını bu işe vermiş deneyimli kadromuzla, binlerce numune, evrak ve aklınıza gelebilecek her türlü gönderilerinizi güvenle taşıyoruz.</p>
+                </div>
+                <div class="feature">
+                    <h3>Uygun Fiyat</h3>
+                    <p>Günümüzün şartlarını biliyor ve sizleri düşünüyoruz. Hakkı olmayan bir ücreti asla talep etmiyoruz.</p>
+                </div>
+                <div class="feature">
+                    <h3>Hızlı Teslimat</h3>
+                    <p>Şehir içi ve Şehirlerarası gönderileriniz için talep etiğiniz sürede teslim garantisi sunuyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>İletişime Geçin</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>İletişim Bilgileri</h3>
+                    <p>📱 Telefon: 0537 383 56 18</p>
+                    <p>📧 E-posta: e.52nes@hotmail.com</p>
+                    <p>📍 Adres: Ödül Sok. No: 20 Çekmeköy, İstanbul, Türkiye</p>
+                    <a href="https://wa.me/905373835618" target="_blank" class="whatsapp-button">
+                        <i class="whatsapp-icon">📱</i>
+                        WhatsApp'tan Mesaj Gönder
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Moto Kurye</h3>
+                    <p>7/24 Hızlı ve Güvenilir Teslimat</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Hızlı Linkler</h3>
+                    <ul>
+                        <li><a href="#home">Ana Sayfa</a></li>
+                        <li><a href="#services">Hizmetler</a></li>
+                        <li><a href="#about">Hakkımızda</a></li>
+                        <li><a href="#contact">İletişim</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Çalışma Saatleri</h3>
+                    <p>Pazartesi - Pazar</p>
+                    <p>24 Saat Açık</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Moto Kurye. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+        const slides = document.getElementsByClassName("slides");
+        const dots = document.getElementsByClassName("dot");
+        
+        function showSlides() {
+            // Tüm slaytları gizle
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                dots[i].classList.remove("active");
+            }
+            
+            // Slayt indeksini artır
+            slideIndex++;
+            
+            // Son slayttan sonra başa dön
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+            
+            // Aktif slaytı göster
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].classList.add("active");
+        }
+
+        // İlk slaytı göster ve döngüyü başlat
+        function startSlideshow() {
+            showSlides();
+            setInterval(showSlides, 3000); // Her 3 saniyede bir slayt değişecek
+        }
+
+        // Sayfa yüklendiğinde slayt gösterisini başlat
+        window.onload = startSlideshow;
+    </script>
+</body>
+</html> 
